@@ -1,0 +1,10 @@
+package com.douglas.algaworksentrega.api.controller;
+
+public class ClienteController {
+	
+	@GetMapping("/clientes")
+	public String listar() {
+		return "Teste";
+	}
+	
+}

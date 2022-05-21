@@ -1,0 +1,27 @@
+package com.douglas.algaworksentrega.domain.service;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.douglas.algaworksentrega.domain.model.Cliente;
+import com.douglas.algaworksentrega.domain.repository.ClienteRepository;
+
+@Service
+public class CatalogoClienteService {
+
+	@Autowired
+	private ClienteRepository clienteRepository;
+
+	@Transactional
+	public Cliente salvar(Cliente cliente) {
+		return clienteRepository.save(cliente);
+	}
+	
+	@Transactional
+	public void excluir(long clienteId) {
+		clienteRepository.deleteById(clienteId);
+	}
+
+}

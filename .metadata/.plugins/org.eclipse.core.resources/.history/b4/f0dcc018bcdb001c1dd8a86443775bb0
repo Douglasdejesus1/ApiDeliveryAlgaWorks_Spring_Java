@@ -1,0 +1,7 @@
+package com.douglas.algaworksentrega.api.model.input;
+
+public class EntregaInput {
+
+	private ClienteIdInput cliente;
+	private 
+}

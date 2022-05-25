@@ -1,0 +1,24 @@
+package com.douglas.algaworksentrega.domain.model;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+public class Entrega {
+
+	
+	private Long id;
+	
+	private Cliente cliente;
+	
+	private Destinatario destinatario;
+	
+	private BigDecimal taxa;
+	
+	private StatusEngrega status;
+	
+	private LocalDateTime dataPedido;
+	
+	private LocalDateTime dataFinalizacao;
+	
+	
+}

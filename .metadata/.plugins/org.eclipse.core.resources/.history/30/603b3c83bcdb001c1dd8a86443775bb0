@@ -1,0 +1,5 @@
+package com.douglas.algaworksentrega.api.model.input;
+
+public class DestinatarioInput {
+
+}

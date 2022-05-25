@@ -1,0 +1,5 @@
+package com.douglas.algaworksentrega.common;
+
+public class ModelMapperConfig {
+
+}

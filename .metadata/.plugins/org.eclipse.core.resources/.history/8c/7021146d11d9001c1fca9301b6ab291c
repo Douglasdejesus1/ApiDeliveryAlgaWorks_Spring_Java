@@ -1,0 +1,5 @@
+package com.douglas.algaworksentrega.domain.model;
+
+public class Entrega {
+
+}
